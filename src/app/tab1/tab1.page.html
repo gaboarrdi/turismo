@@ -1,17 +1,57 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
-      Tab 1
+      Conheça Santa Catarina!!
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-card>
+    <ion-card-header>
+      <ion-img src="assets/img/scImg.jpeg" width="50%" height="auto"></ion-img>
+      <ion-card-title>Terra maravilhosa</ion-card-title>
+      <ion-card-subtitle>Santa Catarina</ion-card-subtitle>
+    </ion-card-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <ion-card-content class="ion-text-justify">
+      Paisagens variadas: Praias paradisíacas, montanhas deslumbrantes e cidades charmosas como Florianópolis e
+      Blumenau.
+
+      Cultura rica: Mistura de influências europeias e indígenas, refletindo em festivais, gastronomia e tradições
+      únicas.
+
+      Aventuras inesquecíveis: Trilhas, esportes aquáticos e parques naturais para amantes da natureza e ecoturismo.
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Informações</ion-card-title>
+
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-icon class="ion-activated"></ion-icon>
+          <ion-icon name="wine-outline"></ion-icon>
+          <ion-label>Lugares para visitar</ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon class="ion-activated"></ion-icon>
+          <ion-icon name="train-outline"></ion-icon>
+          <ion-label>Como chegar?</ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon class="ion-activated"></ion-icon>
+          <ion-icon name="car-outline"></ion-icon>
+          <ion-label>Mapas</ion-label>
+        </ion-item>
+
+
+
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
